@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowClientVpnUnassociation",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DisassociateClientVpnTargetNetwork",
+                "ec2:DescribeClientVpnTargetNetworks"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

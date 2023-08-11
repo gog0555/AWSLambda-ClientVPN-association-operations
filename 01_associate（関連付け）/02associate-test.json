@@ -1,0 +1,12 @@
+{
+    "client_vpn_id": "cvpn-endpoint-xxxxxxxxxxxxxx",
+    "subnet_list": [
+        "subnet-xxxxxxxxxxxxxxxxxx",
+        "subnet-yyyyyyyyyyyyyyyyy"
+    ],
+    "destination_cidr_block_list": [
+        "192.168.xx.00/24",
+        "192.168.yy.0/24",
+        "192.168.zz.0/24"
+    ]
+}
